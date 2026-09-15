@@ -13,7 +13,11 @@
   <img src="https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/Supabase-Postgres%20%2B%20Auth-3FCF8E?logo=supabase&logoColor=white" alt="Supabase">
   <img src="https://img.shields.io/badge/Tailwind-3.4-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind">
-  <img src="https://img.shields.io/badge/Cloud%20Run-deploy%20ready-4285F4?logo=googlecloud&logoColor=white" alt="Cloud Run">
+  <img src="https://img.shields.io/badge/Cloud%20Run-deployed-4285F4?logo=googlecloud&logoColor=white" alt="Cloud Run">
+</p>
+
+<p align="center">
+  <a href="https://stokaa.com"><strong>▶ Live at stokaa.com</strong></a>
 </p>
 
 > **This is a case study, not the source.** StokaFlow is a commercial product and its
@@ -163,8 +167,9 @@ data-fetching library; App Router server components and local state cover it.
 
 ## Status
 
-**Pre-pilot.** The application is feature-complete against a live Supabase backend and the
-deploy pipeline is written, but it has not been through a real shop yet.
+**Deployed, pre-pilot.** The application is feature-complete against a live Supabase backend
+and is running in production on Cloud Run at **[stokaa.com](https://stokaa.com)**. It has not
+yet been through a real shop.
 
 | Area | State |
 |---|---|
@@ -174,7 +179,7 @@ deploy pipeline is written, but it has not been through a real shop yet.
 | Users, settings, company profile | Live |
 | Reports | Still on mock data |
 | Plan gating | Cosmetic — not yet enforced server-side |
-| Cloud Run deploy | Config written, not yet deployed |
+| Cloud Run deploy | **Live** — serving [stokaa.com](https://stokaa.com) |
 | Tests | None |
 
 Known gaps are tracked rather than hidden — password reset, server-side plan enforcement,
