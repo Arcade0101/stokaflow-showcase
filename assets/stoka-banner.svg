@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 520" width="1280" height="520" role="img" aria-label="STOKA — inventory kiosk for small shops">
+  <title>STOKA — inventory kiosk for small shops</title>
+  <defs>
+    <clipPath id="frame"><rect x="0" y="0" width="1280" height="520" rx="28"/></clipPath>
+    <clipPath id="screen"><rect x="778" y="144" width="280" height="184" rx="10"/></clipPath>
+    <clipPath id="boxa"><rect x="620" y="330" width="124" height="76" rx="8"/></clipPath>
+    <clipPath id="boxb"><rect x="648" y="256" width="100" height="74" rx="8"/></clipPath>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.4" fill="#5F6368" opacity="0.16"/>
+    </pattern>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- canvas -->
+    <rect width="1280" height="520" fill="#F8F9FA"/>
+
+    <!-- soft background shapes -->
+    <circle cx="1186" cy="66" r="148" fill="#D2E3FC" opacity="0.45"/>
+    <circle cx="64" cy="474" r="112" fill="#FEEFC3" opacity="0.65"/>
+    <circle cx="602" cy="34" r="58" fill="#CEEAD6" opacity="0.5"/>
+    <rect x="1050" y="54" width="190" height="100" fill="url(#dots)"/>
+
+    <!-- flow line -->
+    <path d="M636 436 Q 920 486 1168 430" fill="none" stroke="#9AA0A6" stroke-width="4"
+          stroke-linecap="round" stroke-dasharray="0.1 16" opacity="0.55"/>
+
+    <!-- ground shadows -->
+    <ellipse cx="690" cy="410" rx="90" ry="11" fill="#E8EAED"/>
+    <ellipse cx="918" cy="404" rx="136" ry="13" fill="#E8EAED"/>
+    <ellipse cx="1172" cy="388" rx="62" ry="9" fill="#E8EAED"/>
+
+    <!-- ================= stock boxes ================= -->
+    <g>
+      <rect x="620" y="330" width="124" height="76" rx="8" fill="#FBBC04"/>
+      <g clip-path="url(#boxa)">
+        <rect x="620" y="330" width="124" height="15" fill="#F29900"/>
+        <rect x="666" y="330" width="14" height="76" fill="#FDE293" opacity="0.75"/>
+      </g>
+      <rect x="648" y="256" width="100" height="74" rx="8" fill="#4285F4"/>
+      <g clip-path="url(#boxb)">
+        <rect x="648" y="256" width="100" height="13" fill="#1967D2"/>
+      </g>
+      <!-- barcode label -->
+      <rect x="662" y="278" width="72" height="40" rx="5" fill="#FFFFFF"/>
+      <g fill="#3C4043">
+        <rect x="670" y="285" width="3" height="18"/>
+        <rect x="676" y="285" width="2" height="18"/>
+        <rect x="681" y="285" width="5" height="18"/>
+        <rect x="689" y="285" width="2" height="18"/>
+        <rect x="694" y="285" width="3" height="18"/>
+        <rect x="700" y="285" width="6" height="18"/>
+        <rect x="709" y="285" width="2" height="18"/>
+        <rect x="714" y="285" width="4" height="18"/>
+        <rect x="721" y="285" width="2" height="18"/>
+        <rect x="726" y="285" width="3" height="18"/>
+      </g>
+      <rect x="676" y="308" width="44" height="4" rx="2" fill="#DADCE0"/>
+    </g>
+
+    <!-- ================= tablet kiosk ================= -->
+    <g>
+      <rect x="836" y="384" width="164" height="18" rx="9" fill="#BDC1C6"/>
+      <rect x="900" y="340" width="36" height="48" fill="#DADCE0"/>
+      <rect x="762" y="136" width="312" height="216" rx="18" fill="#E8EAED"/>
+      <rect x="762" y="128" width="312" height="216" rx="18" fill="#FFFFFF" stroke="#DADCE0" stroke-width="3"/>
+      <g clip-path="url(#screen)">
+        <rect x="778" y="144" width="280" height="184" fill="#FFFFFF"/>
+        <rect x="778" y="144" width="280" height="42" fill="#4285F4"/>
+        <rect x="794" y="158" width="88" height="13" rx="6.5" fill="#FFFFFF" opacity="0.92"/>
+        <rect x="966" y="156" width="76" height="17" rx="8.5" fill="#FFFFFF" opacity="0.35"/>
+
+        <circle cx="800" cy="210" r="9" fill="#34A853"/>
+        <rect x="820" y="204" width="118" height="12" rx="6" fill="#E8EAED"/>
+        <rect x="974" y="200" width="60" height="20" rx="10" fill="#CEEAD6"/>
+        <rect x="986" y="207" width="36" height="6" rx="3" fill="#34A853" opacity="0.65"/>
+
+        <circle cx="800" cy="246" r="9" fill="#FBBC04"/>
+        <rect x="820" y="240" width="96" height="12" rx="6" fill="#E8EAED"/>
+        <rect x="974" y="236" width="60" height="20" rx="10" fill="#FEEFC3"/>
+        <rect x="986" y="243" width="28" height="6" rx="3" fill="#F29900" opacity="0.7"/>
+
+        <circle cx="800" cy="282" r="9" fill="#EA4335"/>
+        <rect x="820" y="276" width="128" height="12" rx="6" fill="#E8EAED"/>
+        <rect x="974" y="272" width="60" height="20" rx="10" fill="#FAD2CF"/>
+        <rect x="986" y="279" width="18" height="6" rx="3" fill="#EA4335" opacity="0.7"/>
+
+        <circle cx="800" cy="318" r="9" fill="#4285F4"/>
+        <rect x="820" y="312" width="106" height="12" rx="6" fill="#E8EAED"/>
+        <rect x="974" y="308" width="60" height="20" rx="10" fill="#D2E3FC"/>
+        <rect x="986" y="315" width="32" height="6" rx="3" fill="#4285F4" opacity="0.7"/>
+      </g>
+    </g>
+
+    <!-- ================= lock badge ================= -->
+    <g>
+      <circle cx="1074" cy="332" r="31" fill="#FFFFFF" stroke="#E8EAED" stroke-width="3"/>
+      <path d="M1068 328 v-6 a6 6 0 0 1 12 0 v6" fill="none" stroke="#1A73E8" stroke-width="4" stroke-linecap="round"/>
+      <rect x="1063" y="328" width="22" height="18" rx="4" fill="#1A73E8"/>
+      <circle cx="1074" cy="336" r="2.4" fill="#FFFFFF"/>
+    </g>
+
+    <!-- ================= phone / MoMo payment ================= -->
+    <g>
+      <rect x="1124" y="210" width="96" height="170" rx="16" fill="#FFFFFF" stroke="#DADCE0" stroke-width="3"/>
+      <rect x="1134" y="222" width="76" height="140" rx="9" fill="#E6F4EA"/>
+      <circle cx="1172" cy="278" r="22" fill="#34A853"/>
+      <path d="M1162 278 l7 7 l13 -14" fill="none" stroke="#FFFFFF" stroke-width="4"
+            stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="1146" y="316" width="52" height="8" rx="4" fill="#A8DAB5"/>
+      <rect x="1156" y="332" width="32" height="8" rx="4" fill="#CEEAD6"/>
+    </g>
+
+    <!-- ================= barcode scanner ================= -->
+    <g transform="translate(648 246) rotate(-35)">
+      <path d="M-16 14 L16 14 L26 78 L-26 78 Z" fill="#EA4335" opacity="0.16"/>
+      <g stroke="#EA4335" stroke-width="3" stroke-linecap="round" opacity="0.55">
+        <line x1="-8" y1="18" x2="-15" y2="70"/>
+        <line x1="0" y1="18" x2="0" y2="74"/>
+        <line x1="8" y1="18" x2="15" y2="70"/>
+      </g>
+      <rect x="-27" y="-100" width="54" height="90" rx="22" fill="#3C4043"/>
+      <rect x="-9" y="-84" width="18" height="24" rx="9" fill="#9AA0A6"/>
+      <path d="M-22 -18 L22 -18 L18 4 L-18 4 Z" fill="#5F6368"/>
+      <rect x="-18" y="0" width="36" height="13" rx="5" fill="#EA4335"/>
+    </g>
+
+    <!-- ================= accents ================= -->
+    <circle cx="600" cy="108" r="7" fill="#4285F4"/>
+    <circle cx="556" cy="432" r="6" fill="#34A853"/>
+    <circle cx="1248" cy="298" r="5" fill="#EA4335"/>
+    <g stroke="#FBBC04" stroke-width="5" stroke-linecap="round">
+      <line x1="1222" y1="436" x2="1246" y2="436"/>
+      <line x1="1234" y1="424" x2="1234" y2="448"/>
+    </g>
+
+    <!-- ================= wordmark ================= -->
+    <g font-family="'Google Sans','Product Sans','Helvetica Neue',Helvetica,Arial,sans-serif">
+      <text x="84" y="226" font-size="78" font-weight="700" fill="#202124" letter-spacing="1.5">STOKA</text>
+      <g>
+        <rect x="86" y="250" width="38" height="9" rx="4.5" fill="#4285F4"/>
+        <rect x="136" y="250" width="38" height="9" rx="4.5" fill="#EA4335"/>
+        <rect x="186" y="250" width="38" height="9" rx="4.5" fill="#FBBC04"/>
+        <rect x="236" y="250" width="38" height="9" rx="4.5" fill="#34A853"/>
+      </g>
+      <text x="84" y="308" font-size="26" font-weight="500" fill="#3C4043">Inventory kiosk for small shops</text>
+      <text x="84" y="342" font-size="18" fill="#80868B">Offline-first POS · barcode scanning · MoMo billing</text>
+    </g>
+  </g>
+</svg>
